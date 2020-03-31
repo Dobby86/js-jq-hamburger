@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: darkgrey;
+}
+[class*="col-"]{
+    float: left;
+
+}
+#imagine {
+    height: 50px;
+    width: auto;
+    margin-left: -200px;
+}
+#bottone {
+    padding: 5px;
+    border-radius: 10px;
+    width: 100px;
+    color: darkblue;
+    background-color: lightgreen;
+    margin-top: 5px;
+}
+.container a {
+    font-size: 17px;
+    color: black;
+    text-decoration: none;
+
+
+
+}
+#barra {
+    position: fixed;
+}
+
+
+@media screen and (max-width: 1199px) {
+    .hambu{
+        display: none;
+    }
+}
+
+@media screen and (min-width:502px) and (max-width: 1200px)  {
+    .container a {
+        display: none;
+    }
+
+    #bottone {
+        margin-left: 500px;
+    }
+    #imagine{
+        margin-left: 100px;
+    }
+
+
+}
